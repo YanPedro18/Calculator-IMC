@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family= Monoton & = Syne & display=swap');
+body {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    background-position: center center;
+    background-image: linear-gradient(to left bottom, #202329, #3c3058, #81266c, #c80055, #f00c0c);
+}
+    .main-01 {
+    backdrop-filter: blur(10px) !important;
+    position: relative;
+    top: 15em;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 25%;
+    height: 38%;
+    border-radius: 23px;
+    background: linear-gradient(45deg, #151111ec, #120e0e);
+    box-shadow:  17px -17px 63px #110e0e,
+                 -17px 17px 63px #171212;
+    }
+    .main-01 > h1 { 
+    
+    margin-bottom: 5%;
+    font-family: 'Syne', sem serifa;
+    color: white;
+    text-align: center;
+    }
+    .input-group {
+    margin: 0 auto;
+    text-align: center;
+    }
+   
+   .input {
+    margin: 10px 0px 10px 0px;
+    border: solid 1.5px #9e9e9e;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .user-label {
+    font-family: 'Syne', sem serifa;
+    position: absolute;
+    left: 28%;
+    padding: 9px;
+    color: #e8e8e8;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid rgba(98, 72, 255, 1);
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-1%) scale(0.8);
+    background-color: #151111ec;
+    padding: 0 .2em;
+    color: rgba(98, 72, 255, 1);
+   }
+   .material-symbols-outlined {
+    margin: 20px 0px 0px 15px;
+    color: #ccc;
+    display: inline-flex !important;
+    word-wrap: normal;
+    width: 30px;
+    cursor: pointer;
+    transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+   .material-symbols-outlined:hover {
+    padding: 0;
+    color: white;
+    transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+   .material-symbols-outlined > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 0.6em;
+    font-family: 'Syne', sem serifa;
+   }
+   .icone {
+    display: inline-block;
+    font-family: 'Syne', sem serifa;
+    text-align: center;
+    position: absolute;
+    right: 100%;
+    color: white;
+    z-index: -1;
+    width: 400px;
+    height: auto;
+    padding: 4%;
+    font-size: 1.2rem;
+    background-color: #1d1818ec;;
+    border-radius: 15px;
+   }
+   button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 10px auto;
+    cursor: pointer;
+    width: 50%;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 3px;
+    height: 3em;
+    padding: 0 3em;
+    border: none;
+    background-color: rgba(98, 72, 255, 1);
+    color: #fff;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 5px
+   }
+   
+   button::before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    height: 0px;
+    width: 100%;
+    background: rgb(196,27,84);
+    background: linear-gradient(90deg, rgba(98, 72, 255, 1) 20%, rgba(124,7,46,1) 100%);
+    transition: 0.2s;
+   }
+   
+   button .label {
+    position: relative;
+   }
+   
+   button .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    top: 3em;
+    right: 0;
+    opacity: 0;
+    transition: 0.4s;
+   }
+   
+   button:hover::before {
+    height: 100%;
+   }
+   
+   button:hover .icon {
+    top: 0;
+    opacity: 1;
+   }
+   .resultadoimc  {
+    background-color: rgb(234, 133, 133);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 170px;
+    font-family: 'Syne', sem serifa;
+
+   }

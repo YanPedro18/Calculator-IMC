@@ -1,0 +1,39 @@
+@media only screen and (max-width: 769px) and (min-width: 414px) {
+    body {
+        height: 100vh;
+    }
+    .main-01 {
+        top: 20%;
+        width: 85%;
+        height: 60%;
+    }
+    .user-label {
+        
+    left: 18%; 
+    }
+    .icone {
+        bottom: -33%;
+        right: 0;
+        left: 0;
+        font-size: 0.7rem;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+    .main-01 {
+        top: 20%;
+        width: 45%;
+        height: 60%;
+    }
+    .user-label {
+        
+        left: 25% ;
+    }
+    .icone {
+    
+        font-size: 0.9rem;
+        width: 250px;
+    }
+}
+
