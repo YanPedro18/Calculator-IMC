@@ -1,4 +1,4 @@
-@media only screen and (max-width: 769px) and (min-width: 414px) {
+@media only screen and (max-width: 768px) and (min-width: 360px) {
     body {
         height: 100vh;
     }
@@ -9,10 +9,10 @@
     }
     .user-label {
         
-    left: 18%; 
+    left: 18%;
     }
     .icone {
-        bottom: -33%;
+        bottom: -30%;
         right: 0;
         left: 0;
         font-size: 0.7rem;
@@ -20,20 +20,31 @@
     }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+@media only screen and (max-width: 1114px) and (min-width: 768px) {
     .main-01 {
         top: 20%;
-        width: 45%;
+        width: 75%;
         height: 60%;
     }
     .user-label {
+        left: 12rem;
         
-        left: 25% ;
-    }
+        } 
     .icone {
-    
-        font-size: 0.9rem;
-        width: 250px;
+        bottom: -1%;
+        right: 0;
+        left: 0;
+        font-size: 1.0rem;
+        width: 300px;
     }
 }
 
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+    .user-label {
+        
+        left: 3rem ;
+        }
+    button {
+        width: 60%;
+    }
+}
